@@ -16,7 +16,7 @@ body {
 }
 
 .homepage { background-image: url(../images/tooplate_body.jpg); }
-.subpage { background-image: url(../images/tooplate_body_subpage.jpg) }
+.subpage { background-image: url(../images/tooplate_body_subpage1.jpg) }
 
 a, a:link, a:visited { color: #e98236; font-weight: bold; text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -117,9 +117,10 @@ a.more:hover {
 	margin-left: 360px; /*Distancia do logo para o lado esquerdo da pagina*/ 
 }
 
-#site_title h1 { 
-	margin: 30px 0 0 0; 
-	padding: 0; 
+#site_title h4 { 
+	margin: 15px 0 0 0; 
+	padding: 0;
+	margin-left: 180px; /*Posicao do telefone junto ao logo*/ 
 }
 
 #site_title h1 a { 
@@ -272,14 +273,14 @@ a.more:hover {
 
 #tooplate_middle_subpage { 
 	clear: both;
-	width: 960px;
-	height: 130px;
+	/*width: 960px;
+	height: 130px;*/
 	padding: 25px 0;
 	background: url(../images/tooplate_middle.png) no-repeat
 }
 
 #tooplate_middle_subpage h2 { 
-	color: #fff; 
+	/*color: #fff; */
 }
 
 #tooplate_middle_subpage p { 
@@ -521,6 +522,12 @@ a.more:hover {
 }
 
 #tooplate_cr a { 
+	/*color: #5fa008;*/
+	color: #0f71ba;
+	font-weight: normal; 
+}
+
+#email { 
 	/*color: #5fa008;*/
 	color: #0f71ba;
 	font-weight: normal; 

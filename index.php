@@ -25,12 +25,8 @@ $(window).load(function() {
 <body class="homepage">
 
 <div id="tooplate_wrapper">
-	<div id="tooplate_header">
-    	
-        <div id="site_title"><img src="images/neoporter_logo.png" width="190" height="80" alt="" /></div>
-        
-        <div class="cleaner"></div>
-    </div>
+	
+	<?php include 'logo.php';?>
     
     <?php include 'menu.php';?>
     
