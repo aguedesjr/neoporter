@@ -29,22 +29,22 @@ $( document ).ready(function() {
            	  	<h6>Todos os campos são obrigatórios.</h6><br>
               	<div id="cp_contact_form">
 				
-                    <form method="post" name="contact" action="#"> 
-	
+                    <form method="post" name="contact" action="enviaremail.php"> 
+						
 						<label for="author">Nome:</label> 
-                        <input name="author" type="text" class="required input_field" id="author" maxlength="40" /> 
-					  <div class="cleaner h10"></div> 
+                        <input name="author" type="text" class="required input_field" id="author" maxlength="40" required /> 
+					    <div class="cleaner h10"></div> 
 	
 						<label for="email">Email:</label> 
-                    <input name="email" type="text" class="validate-email required input_field" id="email" maxlength="40" /> 
-					  <div class="cleaner h10"></div> 
+                        <input name="email" type="text" class="validate-email required input_field" id="email" maxlength="40" required /> 
+					    <div class="cleaner h10"></div> 
 	
 						<label for="subject">Assunto:</label> 
-                  <input name="subject" type="text" class="validate-subject required input_field" id="subject" maxlength="80"/> 
-					  <div class="cleaner h10"></div> 
+                  		<input name="subject" type="text" class="validate-subject required input_field" id="subject" maxlength="80" required /> 
+					    <div class="cleaner h10"></div> 
 	
 						<label for="text">Mensagem:</label> 
-                <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea> 
+                		<textarea id="text" name="text" rows="0" cols="0" class="required" required></textarea> 
 						<div class="cleaner h10"></div>                
 	
 						<input type="submit" value="Enviar" id="submit" name="submit" class="submit_btn float_l" /> 
