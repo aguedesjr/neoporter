@@ -1,9 +1,23 @@
 <?php include 'header.php'; ?>
+    
+<!-- Arquivos utilizados pelo jQuery lightBox plugin -->
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" />    
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+<!-- / fim dos arquivos utilizados pelo jQuery lightBox plugin -->
 
 <script>
 $( document ).ready(function() {
 	document.getElementById("inicio").className = "";
 	document.getElementById("cont").className = "active";
+});
+</script>
+
+<!-- Ativando o jQuery lightBox plugin -->
+<script type="text/javascript">
+$(function() {
+    $('.lightbox').lightBox();
 });
 </script>
 
@@ -58,7 +72,7 @@ $( document ).ready(function() {
             <div class="col_w450 float_r" id="map">
             	<h3>Localização</h3>
             	<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3705.938043769842!2d-41.349982000000004!3d-21.74392749999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdd4653dab0cff%3A0xeb9194e5689d2876!2sAv.+S%C3%A3o+Fid%C3%A9lis%2C+522+-+Nova+Bras%C3%ADlia%2C+Campos+dos+Goytacazes+-+RJ%2C+28055-512!5e0!3m2!1spt-BR!2sbr!4v1428704357396" width="400" height="300" frameborder="0" style="border:0"></iframe>  -->
-                <a href="images/mapa_neoporter.png" title="Our Location">
+                <a class="lightbox" href="images/mapa_neoporter.png" title="Our Location">
                     <img src="images/thumb_neoporter.png" alt="" />
                 </a>
 

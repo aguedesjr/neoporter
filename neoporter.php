@@ -24,7 +24,7 @@ $( document ).ready(function() {
     <div id="tooplate_main">
         <div class="col_w960 col_w960_last">
 		
-            <h3>Como funciona</h3><br>
+            <h3>A Neoporter</h3><br>
            	<p align="justify">O sistema <b>NEOPORTER</b> é o novo conceito em gestão eletrônica de portaria, gerenciado pela <b>SCOUT MONITORAMENTO 24H</b>, presente no
            	mercado local há cerca de 3 anos, que se destaca pela sua excelência nos serviços prestados e por sempre buscar inovações para seus 
            	parceiros e clientes.</p><br>
