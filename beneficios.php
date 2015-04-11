@@ -1,5 +1,12 @@
 <?php include 'header.php'; ?>
 
+<script>
+$( document ).ready(function() {
+	document.getElementById("inicio").className = "";
+	document.getElementById("bene").className = "active";
+});
+</script>
+
 
 <body class="subpage">
 
