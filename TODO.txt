@@ -1,0 +1,8 @@
+Ações a serem feitas:
+
+	-> Criar página e adicionar o vídeo em depoimentos: 
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/gvwesdtG1wo" frameborder="0" allowfullscreen></iframe>
+	-> Criar a página sobre a neoporter
+	-> Criar a página sobre benefícios
+	-> Criar página sobre como funciona - ok
+	-> Tentar alterar o vídeo da página inicial colocando azul
