@@ -52,7 +52,7 @@ $( document ).ready(function() {
                     	<li>Ronda Virtual;</li>
                     	<li>Apoio tático 24hs;</li>
                     	<li>Suporte técnico e manutenção 24hs;</li>
-                    	<li>Para garantir  sua proteção, a INTELPORT utiliza, para melhor comunicação com seus clientes uma intranet Privada, para ter maior estabilidade e segurança.</li>
+                    	<li>Para garantir  sua proteção, a NEOPORTER utiliza, para melhor comunicação com seus clientes uma intranet Privada, para ter maior estabilidade e segurança.</li>
                     </ul>
     
             	</div>

@@ -29,7 +29,8 @@ $( document ).ready(function() {
            	  	<!-- <h6>Entenda como funciona.</h6><br>  -->
               	<div id="cp_contact_form">
 				
-                    <iframe width="350" height="240" src="https://www.youtube.com/embed/gvwesdtG1wo" frameborder="0" allowfullscreen></iframe>
+                    <!-- <iframe width="350" height="240" src="https://www.youtube.com/embed/gvwesdtG1wo" frameborder="0" allowfullscreen></iframe>  -->
+                    <iframe width="350" height="240" src="https://www.youtube.com/embed/EfyRp02EbRY" frameborder="0" allowfullscreen></iframe>
     
             	</div>
             </div>
