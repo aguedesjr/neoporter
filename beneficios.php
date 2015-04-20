@@ -62,7 +62,7 @@ $( document ).ready(function() {
             
 		</div>
 		
-		<center> <img alt="" src="images/beneficios.png"> </center>
+		<center> <img alt="" src="images/beneficios1.png"> </center>
         
         <div class="cleaner"></div>
     </div> <!-- end of main -->

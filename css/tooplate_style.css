@@ -10,7 +10,8 @@ body {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 13px;
 	line-height: 1.7em; 
-	background-color: #fff;
+	/*background-color: #D9D9D9;*/ /*Cor cinza da parte lateral da página*/
+	background-color: #fff; /*Cor branca da parte lateral da página*/
 	background-repeat: repeat-x;
 	background-position: top	
 }
@@ -114,6 +115,7 @@ a.more:hover {
 #site_title { 
 	float: left;
 	margin-top: 10px; /*Distancia do logo para o topo da pagina*/
+	/*margin-bottom: 0;*/
 	margin-left: 360px; /*Distancia do logo para o lado esquerdo da pagina*/ 
 }
 
@@ -306,7 +308,8 @@ a.more:hover {
 	clear: both;
 	width: 960px;
 	padding: 30px 0;
-	background: #fff;
+	/*background: #D9D9D9;*/ /*Cor cinza da parte do meio da página*/
+	background: #fff; /*Cor branca da parte do meio da página*/
 }
 
 .col_w960 { width: 960px; margin-bottom: 40px }
@@ -531,4 +534,10 @@ a.more:hover {
 	/*color: #5fa008;*/
 	color: #0f71ba;
 	font-weight: normal; 
+}
+.main{
+width: 944px;
+padding-bottom: 30px;
+margin: 0 auto;
+background: url(../images/shadow.png) left bottom no-repeat;
 }

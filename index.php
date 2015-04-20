@@ -29,7 +29,7 @@ $(window).load(function() {
 	<?php include 'logo.php';?>
     
     <?php include 'menu.php';?>
-    
+    <div class="main">
     <div id="tooplate_middle">
     
         <div id="slider">
@@ -40,7 +40,7 @@ $(window).load(function() {
             <a href="#"><img src="images/slideshow/seguranca.jpg" alt="" title="Seu imóvel seguro 7 dias por semana 24h por dia." /></a>
         </div>
 	</div>
-        
+    </div>
     <div id="tooplate_main">
     	
         <div class="col_w960">

@@ -14,7 +14,9 @@
 
 
 .nivoSlider {
-	position:relative;
+	/*position:relative;*/
+	position: absolute; /*Coloca a imagem atrás do menu*/
+    z-index: 0; /*Coloca a imagem atrás do menu*/
 }
 .nivoSlider img {
 	position:absolute;

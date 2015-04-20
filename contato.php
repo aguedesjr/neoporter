@@ -43,14 +43,30 @@ $(function() {
            	  	<h6>Todos os campos são obrigatórios.</h6><br>
               	<div id="cp_contact_form">
 				
-                    <form method="post" name="contact" action="enviaremail.php"> 
+                    <form method="post" action="enviaremail.php"> 
 						
 						<label for="author">Nome:</label> 
                         <input name="author" type="text" class="required input_field" id="author" maxlength="40" required /> 
+					    <div class="cleaner h10"></div>
+					    
+					    <label for="endereco">Endereço:</label> 
+                        <input name="endereco" type="text" class="required input_field" id="endereco" maxlength="40" required /> 
 					    <div class="cleaner h10"></div> 
 	
 						<label for="email">Email:</label> 
                         <input name="email" type="text" class="validate-email required input_field" id="email" maxlength="40" required /> 
+					    <div class="cleaner h10"></div>
+					    
+					    <label for="tel">Tel:</label> 
+                        <input name="tel" type="text" class="required input_field" id="tel" maxlength="40" required /> 
+					    <div class="cleaner h10"></div>
+					    
+					    <label for="condominio">Condominio:</label> 
+                        <input name="condominio" type="text" class="required input_field" id="condominio" maxlength="40" required /> 
+					    <div class="cleaner h10"></div>
+					    
+					    <label for="sindico">Síndico:</label> 
+                        <input name="sindico" type="text" class="required input_field" id="sindico" maxlength="40" required /> 
 					    <div class="cleaner h10"></div> 
 	
 						<label for="subject">Assunto:</label> 

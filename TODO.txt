@@ -5,4 +5,4 @@ Ações a serem feitas:
 	-> Criar a página sobre a neoporter - ok
 	-> Criar a página sobre benefícios - ok
 	-> Criar página sobre como funciona - ok
-	-> Tentar alterar o vídeo da página inicial colocando azul
+	-> Tentar alterar o vídeo da página inicial colocando azul - ok
