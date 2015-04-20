@@ -28,39 +28,47 @@ $( document ).ready(function() {
            	  	<h6>Todos os campos são obrigatórios.</h6><br>
               	<div id="cp_contact_form">
 				
-                    <form method="post" action="enviaremail.php"> 
+                    <form method="post" action="enviaremailfestas.php"> 
 						
-						<label for="author">Nome:</label> 
-                        <input name="author" type="text" class="required input_field" id="author" maxlength="40" required /> 
+						<label for="condominio">Condominio:</label> 
+                        <input name="condominio" type="text" class="required input_field" id="condominio" maxlength="40" required /> 
 					    <div class="cleaner h10"></div>
 					    
-					    <label for="endereco">Endereço:</label> 
-                        <input name="endereco" type="text" class="required input_field" id="endereco" maxlength="40" required /> 
-					    <div class="cleaner h10"></div> 
-	
-						<label for="email">Email:</label> 
-                        <input name="email" type="text" class="validate-email required input_field" id="email" maxlength="40" required /> 
+					    <label for="apto">Apartamento:</label> 
+                        <input name="apto" type="text" class="required input_field" id="apto" maxlength="40" required /> 
+					    <div class="cleaner h10"></div>
+						
+						<label for="author">Morador:</label> 
+                        <input name="author" type="text" class="required input_field" id="author" maxlength="40" required /> 
 					    <div class="cleaner h10"></div>
 					    
 					    <label for="tel">Tel:</label> 
                         <input name="tel" type="text" class="required input_field" id="tel" maxlength="40" required /> 
 					    <div class="cleaner h10"></div>
 					    
-					    <label for="condominio">Condominio:</label> 
-                        <input name="condominio" type="text" class="required input_field" id="condominio" maxlength="40" required /> 
+					    <label for="email">Email:</label> 
+                        <input name="email" type="text" class="validate-email required input_field" id="email" maxlength="40" required /> 
+					    <div class="cleaner h10"></div>
+	
+						<label for="data">Data:</label> 
+                        <input name="data" type="text" class="validate-email required input_field" id="data" maxlength="40" required /> 
 					    <div class="cleaner h10"></div>
 					    
-					    <label for="sindico">Síndico:</label> 
-                        <input name="sindico" type="text" class="required input_field" id="sindico" maxlength="40" required /> 
-					    <div class="cleaner h10"></div> 
-	
-						<label for="subject">Assunto:</label> 
-                  		<input name="subject" type="text" class="validate-subject required input_field" id="subject" maxlength="80" required /> 
-					    <div class="cleaner h10"></div> 
-	
-						<label for="text">Mensagem:</label> 
+					    <label for="hora">Hora:</label> 
+                        <input name="hora" type="text" class="required input_field" id="hora" maxlength="40" required /> 
+					    <div class="cleaner h10"></div>
+					    
+					    <label for="nconv">Nº Pessoas:</label> 
+                        <input name="nconv" type="text" class="required input_field" id="nconv" maxlength="40" required /> 
+					    <div class="cleaner h10"></div>
+					    
+					    <label for="text">Listagem:</label> 
                 		<textarea id="text" name="text" rows="0" cols="0" class="required" required></textarea> 
-						<div class="cleaner h10"></div>                
+						<div class="cleaner h10"></div>
+					    	
+						<label for="obs">Obs:</label> 
+                  		<input name="obs" type="text" class="validate-subject required input_field" id="obs" maxlength="80" required /> 
+					    <div class="cleaner h10"></div> 
 	
 						<input type="submit" value="Enviar" id="submit" name="submit" class="submit_btn float_l" /> 
 						<!-- <input type="reset" value="Reset" id="reset" name="reset" class="submit_btn float_r" />  --> 

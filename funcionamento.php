@@ -28,9 +28,11 @@ $( document ).ready(function() {
            	  	<h6>Entenda como funciona.</h6><br>
               	<div id="cp_contact_form">
 				
-                    <img alt="" src="images/como_funciona1.jpg" width="720"> <br>
+                    <!-- <img alt="" src="images/como_funciona1.jpg" width="720"> <br>
                     
-                    <img alt="" src="images/como_funciona.jpg">
+                    <img alt="" src="images/como_funciona.jpg"> -->
+                    
+                    <img alt="" src="images/como_funciona_neoporter.png" width="720">
     
             	</div>
             </div>
