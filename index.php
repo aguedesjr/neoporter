@@ -71,46 +71,50 @@ $(window).load(function() {
                      <!-- <a href="#" class="more float_r">More</a>  -->
                     <div class="cleaner"></div>
                 </div>
+                
             </div>
             
             <div class="cleaner"></div>
 		</div>
-    
-    	<div class="col_w960 col_w960_last">
-        	<h2>Vídeos</h2>
-            <div class="lp_box">
-                <h6>Demonstração</h6>
-
-				<iframe width="350" height="240" src="https://www.youtube.com/embed/Vph0ijcdVAk" frameborder="0" allowfullscreen></iframe>
-                
-                <p>Neoporter - Portaria Inteligente.</p>
-                <!-- <a href="#" class="more float_r">More</a>  -->
-                <div class="cleaner"></div>
-        	</div>
-			
-            <!-- <div class="lp_box">
-                <h6>Sed aliquam mauris</h6>
-                <a href="#"><img src="images/tooplate_image_02.jpg" alt="Image 02" /></a>
-              	<p>Donec ullamcorper feugiat nunc ut tempus. Sed sodales, nibh ut ultricies pulvinar.</p>
-                <a href="#" class="more float_r">More</a>
-                    <div class="cleaner"></div>
-        	</div>
-			
-			<div class="lp_box lp_box_last">
-                <h6>Aliquam aliquet sem</h6>
-                <a href="#"><img src="images/tooplate_image_03.jpg" alt="Image 03" /></a>
-				<p>Praesent auctor quam quis libero venenatis dapibus. Donec ullamcorper   feugiat nunc ut tempus.</p>
-                <a href="#" class="more float_r">More</a>
-                <div class="cleaner"></div>
-            </div> -->
-			
-            <div class="cleaner"></div>
-        </div>
+		
+	    	<div class="col_w960 col_w960_last">
+	        	<h2>Vídeos</h2>
+	            <div class="lp_box">
+	                <h6>Demonstração</h6>
+	
+					<iframe width="350" height="240" src="https://www.youtube.com/embed/Vph0ijcdVAk" frameborder="0" allowfullscreen></iframe>
+	                
+	                <p>Neoporter - Portaria Inteligente.</p>
+	                <!-- <a href="#" class="more float_r">More</a>  -->
+	                <div class="cleaner"></div>
+	        	</div>
+				
+	            <!-- <div class="lp_box">
+	                <h6>Sed aliquam mauris</h6>
+	                <a href="#"><img src="images/tooplate_image_02.jpg" alt="Image 02" /></a>
+	              	<p>Donec ullamcorper feugiat nunc ut tempus. Sed sodales, nibh ut ultricies pulvinar.</p>
+	                <a href="#" class="more float_r">More</a>
+	                    <div class="cleaner"></div>
+	        	</div>
+				
+				<div class="lp_box lp_box_last">
+	                <h6>Aliquam aliquet sem</h6>
+	                <a href="#"><img src="images/tooplate_image_03.jpg" alt="Image 03" /></a>
+					<p>Praesent auctor quam quis libero venenatis dapibus. Donec ullamcorper   feugiat nunc ut tempus.</p>
+	                <a href="#" class="more float_r">More</a>
+	                <div class="cleaner"></div>
+	            </div> -->
+				
+	            <div class="cleaner"></div>
+	        </div>
         
         <div class="cleaner"></div>
     </div> <!-- end of main -->
         
 </div> <!-- end of wrapper -->
+
+<center>Contador de Visitantes</center>
+<center><div align=center><a href='http://www.contadormania.com.br'><img src='http://www.contadormania.com.br/img-4Zb1WyZ0-29.gif' border='0' alt='counter free'></a><script type='text/javascript' src='http://www.contadormania.com.br/ad.js?id=4Zb1WyZ0'></script></div></center>
 
 <?php include 'footer.php';?>
 

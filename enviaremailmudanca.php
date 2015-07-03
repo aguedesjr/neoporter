@@ -9,10 +9,10 @@
   $email = $_POST['email'];
   $data = $_POST['data'];
   $hora = $_POST['hora'];
-  $nconv = $_POST['nconv'];
-  $listagem = $_POST['text'];
-  $obs = $_POST['obs'];
-  $assunto = "Informação de Festa";
+  $tempo = $_POST['tempo'];
+  $transp = $_POST['transp'];
+  $teltransp = $_POST['teltransp'];
+  $assunto = "Informação de Mudança";
   
   
   //Agora definimos a  mensagem que vai ser enviado no e-mail
@@ -23,9 +23,9 @@
   $mensagem .= "<br>  <strong>Apartamento: </strong>".$_POST['apto'];
   $mensagem .= "<br>  <strong>Data: </strong>".$_POST['data'];
   $mensagem .= "<br>  <strong>Hora: </strong>".$_POST['hora'];
-  $mensagem .= "<br>  <strong>Nº Convidados: </strong>".$_POST['nconv'];
-  $mensagem .= "<br>  <strong>Observação: </strong>".$_POST['obs'];
-  $mensagem .= "<br>  <strong>Listagem: </strong>".$_POST['text'];
+  $mensagem .= "<br>  <strong>Tempo Previsto: </strong>".$_POST['tempo'];
+  $mensagem .= "<br>  <strong>Transportadora: </strong>".$_POST['transp'];
+  $mensagem .= "<br>  <strong>Telefone da Transportadora: </strong>".$_POST['obs'];
 
   //Agora inserimos as codificações corretas e  tudo mais.
   $headers =  "Content-Type:text/html; charset=UTF-8\n";
@@ -37,5 +37,5 @@
   $headers .= "MIME-Version: 1.0\n";
 
 mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email.
-header("location:festas.php");
+header("location:mudancas.php");
 ?>

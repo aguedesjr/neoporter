@@ -42,8 +42,9 @@
             
             <li id="cli" class=""><a href="#">Área do Cliente</a>
             	<ul class="submenu-1">
-            		<li><a href="cliente.php">Síndico</a></li>
-            		<li><a href="festas.php">Festas</a></li>
+            		<li><a href="cliente.php">Administração</a></li>
+            		<li><a href="festas.php">Agendamento de Festas</a></li>
+            		<li><a href="mudancas.php">Agendamento de Mudança</a></li>
             	</ul>
             </li>
             <li id="cont" class="last"><a href="contato.php">Contato</a></li>
